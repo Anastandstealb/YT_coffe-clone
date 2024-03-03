@@ -20,7 +20,7 @@ button{
     box-sizing: border-box;
 }
 body{
-    background-color: #100e0f;
+    background-color: #100E0F;
 }
 /* nav -- start */
 nav{
@@ -72,7 +72,6 @@ header{
     top: 13rem;
     font-size: 8rem;
     word-spacing: 10px;
-    
 }
 .primary-heading{
     position: absolute ;
@@ -86,9 +85,9 @@ header{
     bottom: 7rem;
     padding: 10px 30px;
     margin-top: 10px;
-   
 }
 /* start of our story */
+
 #Our-Story{
     height: 100vh;
     margin-top: 10%;
@@ -96,13 +95,15 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    font-size: 20px;
 }
 .img{
-    width: 600px;
+    width: 800px;
     height: 400px;
     background-position: center;
-    background: url(https://images.unsplash.com/photo-1462917882517-e150004895fa?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: contain;
+    /* background: url(https://images.unsplash.com/photo-1462917882517-e150004895fa?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background: url(./Asset/main\ coffee.png);
+    background-size: cover;
 }
 .title.style{
     display: flex;
@@ -121,7 +122,6 @@ header{
     height: 2px;
     background: white;
     transform: translate(-110px, 40px);
-
 }
 .section-content p{
     max-width: 500px;
@@ -130,6 +130,7 @@ header{
     height: 20px;
     margin: 20px 0px;
     word-spacing: 5px;
+    font-size: 17px;
 }
 .btn-2{
     transform: translateY(60px);
