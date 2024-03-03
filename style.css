@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+
+:root{
+    --main-color: #deab5f;
+    --primary-color: #312e2e;
+}
+/* utilies Styles */
+button{
+    /* first is for top and bottom and second is for left and right */
+    padding: 10px 30px; 
+    background:#deab5f ;
+    border: none;
+    cursor: pointer;
+}
+
+/* resets */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #100e0f;
+}
+/* nav -- start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+li{
+    display: inline;
+    list-style: none;
+
+}
+li a{
+    /* we are using li a so that we target all the a tag currently used  */
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+/* below is code for the hover effects */
+li a:hover{
+    border-bottom:2px solid #deab5f ;
+}
+/* nav --ends */
+
+/* header--- starts */
+header{
+    /* background: url(https://images.unsplash.com/photo-1519060825752-c4832f2d400a?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background: url(https://images.wallpaperscraft.com/image/single/coffee_cappuccino_cup_1190365_1366x768.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "playfire Display", serif;
+    font-weight: normal;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.main-heading{
+    position: absolute;
+    top: 13rem;
+    font-size: 8rem;
+    word-spacing: 10px;
+    
+}
+.primary-heading{
+    position: absolute ;
+    bottom: 14rem;
+    font-size: 6rem;
+    word-spacing:10px;
+    margin-bottom: -40px;
+}
+.main-btn{
+    position: absolute;
+    bottom: 7rem;
+    padding: 10px 30px;
+    margin-top: 10px;
+   
+}
+#Our-Story{
+    height: 100vh;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(./Asset/\ new.jpeg);
+    background-size: cover;
+
+}
