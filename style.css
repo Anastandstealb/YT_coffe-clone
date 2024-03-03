@@ -8,7 +8,7 @@
 button{
     /* first is for top and bottom and second is for left and right */
     padding: 10px 30px; 
-    background:#deab5f ;
+    background-color:#deab5f;
     border: none;
     cursor: pointer;
 }
@@ -88,18 +88,54 @@ header{
     margin-top: 10px;
    
 }
+/* start of our story */
 #Our-Story{
     height: 100vh;
-    margin-top: 15px;
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 .img{
-    width: 400px;
+    width: 600px;
     height: 400px;
-    background: url(./Asset/about.jpg);
-    background-size: cover;
+    background-position: center;
+    background: url(https://images.unsplash.com/photo-1462917882517-e150004895fa?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: contain;
+}
+.title.style{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-family: "Playfire Display",serif;
+    font-size: 4rem;
+    color: white;
 
 }
+.line{
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 2px;
+    background: white;
+    transform: translate(-110px, 40px);
+
+}
+.section-content p{
+    max-width: 500px;
+    color: white;
+    font-family: sans-serif;
+    height: 20px;
+    margin: 20px 0px;
+    word-spacing: 5px;
+}
+.btn-2{
+    transform: translateY(60px);
+}
+
+/* our story ends */
+
+
+
