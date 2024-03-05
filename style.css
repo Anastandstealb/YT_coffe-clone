@@ -22,7 +22,7 @@ button{
     /* border: 1px solid white; */
 }
 body{
-    background-color: #100E0F;
+    background-color: #000000;
 }
 /* nav -- start */
 nav{
@@ -175,5 +175,117 @@ header{
     word-spacing: 5px;
     font-family: sans;
 }
+.btn-coffee{
+transform: translateY(10px);}
 /* coffee ends */
 
+/* products section start */
+.products{
+    margin-top: 5%;
+}
+.title-three{
+    font-size: 4rem;
+    margin: 10rem 10rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+.card{
+    border: 3px outset var(--main-color);
+    padding: 10px 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.card-img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    
+    top: -60px;
+    /* border: 2px solid white; */
+}
+.img-one img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+
+}
+.img-two img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+
+}
+.img-three img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.card-title{
+    font-size: 20px;
+    align-items: center;
+    padding-top: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.items p{
+    color: white;
+    font-size: 17px;
+    margin: 10px 0px;
+    font-family: sans-serif;
+}
+/* products section ends */
+/* footer starts */
+footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+footer .container{
+    margin: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+footer .heading-info{
+    margin-bottom: 20px;
+}
+footer p{
+    line-height: 25px;
+}
+.para{
+    font-size: 18px;
+}
+footer span{
+    color: var(--main-color);
+}
+.crp-con{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+.crp span{
+    color: var(--main-color);
+
+}
+/* footer ends */
