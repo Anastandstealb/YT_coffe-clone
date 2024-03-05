@@ -103,6 +103,8 @@ header{
 .img img{
     object-fit: contain;
     transform: translate(20px,37px);
+    width: 600px; 
+    height:500px;
 }
 /* old method here image is in div
  .img{
@@ -160,6 +162,8 @@ header{
 }
 .img-container img{
     object-fit: contain;
+    width: 500px;
+    height: 500px;
 }
 .title-two{
     font-size: 3rem;
@@ -286,6 +290,45 @@ footer span{
 }
 .crp span{
     color: var(--main-color);
-
 }
+
 /* footer ends */
+/* responsiveness  */
+@media only screen and (max-width:800px){
+    .main-heading{
+        font-size: 4rem;
+    }
+    .primary-heading{
+        transform: translateY(-20px);
+        font-size: 2.5rem;
+    }
+    #Our-Story{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    #Our-Story p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    #Our-Story .line{
+        transform: translate(15px, 40px);
+
+    }
+    .content-section .title-two{
+        text-align: center;
+    }
+    .content-section p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .crp-con{
+        padding-top: 6rem;
+    }
+    .content-section .btn-coffee{
+        transform: translateX(190px);
+    }
+    .title-three{
+        text-align: center;
+    }
+}
